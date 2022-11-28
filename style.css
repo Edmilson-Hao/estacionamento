@@ -1,0 +1,28 @@
+:root {
+    --baseColor: #41436A;
+    --mainColor: #984063;
+    --secondColor: #F64668;
+    --thirdColor: #FE9677;
+  }
+
+*, body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--baseColor);
+}
+
+#mainMenu {
+    max-width: 100vh;
+    height: 90vh;
+    display: block;
+    margin: 5vh auto;
+    border: 1px solid var(--thirdColor);
+    border-radius: 15px;
+}
+
+.menuSelection  li{
+    list-style-type: none;
+    display: relative;
+    max-width: 20vh;
+    text-decoration: none;
+}
