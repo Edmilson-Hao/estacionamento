@@ -13,16 +13,23 @@
 
 #mainMenu {
     max-width: 100vh;
-    height: 90vh;
+    height: 80vh;
     display: block;
     margin: 5vh auto;
-    border: 1px solid var(--thirdColor);
-    border-radius: 15px;
 }
 
 .menuSelection  li{
     list-style-type: none;
     display: relative;
-    max-width: 20vh;
+    max-width: 10vh;
     text-decoration: none;
+    padding: 1vh;
+    margin: 10vh  auto 0;
+}
+
+.menuSelection li img {
+    width: 15vh;
+    height: 15vh;
+    background-color:  rgba(254, 150, 119, .5);
+    border-radius: 15px;
 }
